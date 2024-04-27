@@ -16,6 +16,8 @@ dependencies:
     path: ./libraries/core
 
   # Your featured dependencies here
+  auth:
+    path: ./features/auth
   home:
     path: ./features/home
   settings:

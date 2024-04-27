@@ -1,188 +1,189 @@
 import 'package:flutter/material.dart';
 
 class TextStyles {
+  TextStyles._();
   // No Color Font
 
   //Regular weight
-  final TextStyle textRegularXS = const TextStyle(
+  static TextStyle textRegularXS = const TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle textRegularS = const TextStyle(
+  static TextStyle textRegularS = const TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle textRegularM = const TextStyle(
+  static TextStyle textRegularM = const TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle textRegularL = const TextStyle(
+  static TextStyle textRegularL = const TextStyle(
     fontSize: 18,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle textRegularXL = const TextStyle(
+  static TextStyle textRegularXL = const TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle textRegularHeaderXS = const TextStyle(
+  static TextStyle textRegularHeaderXS = const TextStyle(
     fontSize: 24,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle textRegularHeaderS = const TextStyle(
+  static TextStyle textRegularHeaderS = const TextStyle(
     fontSize: 30,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle textRegularHeaderM = const TextStyle(
+  static TextStyle textRegularHeaderM = const TextStyle(
     fontSize: 36,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle textRegularHeaderL = const TextStyle(
+  static TextStyle textRegularHeaderL = const TextStyle(
     fontSize: 48,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle textRegularHeaderXL = const TextStyle(
+  static TextStyle textRegularHeaderXL = const TextStyle(
     fontSize: 60,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle textRegularHeaderXXL = const TextStyle(
+  static TextStyle textRegularHeaderXXL = const TextStyle(
     fontSize: 72,
     fontWeight: FontWeight.w400,
   );
 
   //Medium weight
-  final TextStyle textMediumXS = const TextStyle(
+  static TextStyle textMediumXS = const TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle textMediumS = const TextStyle(
+  static TextStyle textMediumS = const TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle textMediumM = const TextStyle(
+  static TextStyle textMediumM = const TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle textMediumL = const TextStyle(
+  static TextStyle textMediumL = const TextStyle(
     fontSize: 18,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle textMediumXL = const TextStyle(
+  static TextStyle textMediumXL = const TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle textMediumHeaderXS = const TextStyle(
+  static TextStyle textMediumHeaderXS = const TextStyle(
     fontSize: 24,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle textMediumHeaderS = const TextStyle(
+  static TextStyle textMediumHeaderS = const TextStyle(
     fontSize: 30,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle textMediumHeaderM = const TextStyle(
+  static TextStyle textMediumHeaderM = const TextStyle(
     fontSize: 36,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle textMediumHeaderL = const TextStyle(
+  static TextStyle textMediumHeaderL = const TextStyle(
     fontSize: 48,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle textMediumHeaderXL = const TextStyle(
+  static TextStyle textMediumHeaderXL = const TextStyle(
     fontSize: 60,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle textMediumHeaderXXL = const TextStyle(
+  static TextStyle textMediumHeaderXXL = const TextStyle(
     fontSize: 72,
     fontWeight: FontWeight.w500,
   );
 
   //Semibold weight
-  final TextStyle textSemiboldXS = const TextStyle(
+  static TextStyle textSemiboldXS = const TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle textSemiboldS = const TextStyle(
+  static TextStyle textSemiboldS = const TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle textSemiboldM = const TextStyle(
+  static TextStyle textSemiboldM = const TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle textSemiboldL = const TextStyle(
+  static TextStyle textSemiboldL = const TextStyle(
     fontSize: 18,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle textSemiboldXL = const TextStyle(
+  static TextStyle textSemiboldXL = const TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle textSemiboldHeaderXS = const TextStyle(
+  static TextStyle textSemiboldHeaderXS = const TextStyle(
     fontSize: 24,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle textSemiboldHeaderS = const TextStyle(
+  static TextStyle textSemiboldHeaderS = const TextStyle(
     fontSize: 30,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle textSemiboldHeaderM = const TextStyle(
+  static TextStyle textSemiboldHeaderM = const TextStyle(
     fontSize: 36,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle textSemiboldHeaderL = const TextStyle(
+  static TextStyle textSemiboldHeaderL = const TextStyle(
     fontSize: 48,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle textSemiboldHeaderXL = const TextStyle(
+  static TextStyle textSemiboldHeaderXL = const TextStyle(
     fontSize: 60,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle textSemiboldHeaderXXL = const TextStyle(
+  static TextStyle textSemiboldHeaderXXL = const TextStyle(
     fontSize: 72,
     fontWeight: FontWeight.w600,
   );
 
   //Bold weight
-  final TextStyle textBoldXS = const TextStyle(
+  static TextStyle textBoldXS = const TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle textBoldS = const TextStyle(
+  static TextStyle textBoldS = const TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle textBoldM = const TextStyle(
+  static TextStyle textBoldM = const TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle textBoldL = const TextStyle(
+  static TextStyle textBoldL = const TextStyle(
     fontSize: 18,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle textBoldXL = const TextStyle(
+  static TextStyle textBoldXL = const TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle textBoldHeaderXS = const TextStyle(
+  static TextStyle textBoldHeaderXS = const TextStyle(
     fontSize: 24,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle textBoldHeaderS = const TextStyle(
+  static TextStyle textBoldHeaderS = const TextStyle(
     fontSize: 30,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle textBoldHeaderM = const TextStyle(
+  static TextStyle textBoldHeaderM = const TextStyle(
     fontSize: 36,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle textBoldHeaderL = const TextStyle(
+  static TextStyle textBoldHeaderL = const TextStyle(
     fontSize: 48,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle textBoldHeaderXL = const TextStyle(
+  static TextStyle textBoldHeaderXL = const TextStyle(
     fontSize: 60,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle textBoldHeaderXXL = const TextStyle(
+  static TextStyle textBoldHeaderXXL = const TextStyle(
     fontSize: 72,
     fontWeight: FontWeight.w700,
   );
@@ -190,228 +191,228 @@ class TextStyles {
   // White Font
 
   //Regular weight
-  final TextStyle wtextRegularXS = const TextStyle(
+  static TextStyle wtextRegularXS = const TextStyle(
     fontSize: 12,
     color: Colors.white,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle wtextRegularS = const TextStyle(
+  static TextStyle wtextRegularS = const TextStyle(
     fontSize: 14,
     color: Colors.white,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle wtextRegularM = const TextStyle(
+  static TextStyle wtextRegularM = const TextStyle(
     fontSize: 16,
     color: Colors.white,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle wtextRegularL = const TextStyle(
+  static TextStyle wtextRegularL = const TextStyle(
     fontSize: 18,
     color: Colors.white,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle wtextRegularXL = const TextStyle(
+  static TextStyle wtextRegularXL = const TextStyle(
     fontSize: 20,
     color: Colors.white,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle wtextRegularHeaderXS = const TextStyle(
+  static TextStyle wtextRegularHeaderXS = const TextStyle(
     fontSize: 24,
     color: Colors.white,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle wtextRegularHeaderS = const TextStyle(
+  static TextStyle wtextRegularHeaderS = const TextStyle(
     fontSize: 30,
     color: Colors.white,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle wtextRegularHeaderM = const TextStyle(
+  static TextStyle wtextRegularHeaderM = const TextStyle(
     fontSize: 36,
     color: Colors.white,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle wtextRegularHeaderL = const TextStyle(
+  static TextStyle wtextRegularHeaderL = const TextStyle(
     fontSize: 48,
     color: Colors.white,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle wtextRegularHeaderXL = const TextStyle(
+  static TextStyle wtextRegularHeaderXL = const TextStyle(
     fontSize: 60,
     color: Colors.white,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle wtextRegularHeaderXXL = const TextStyle(
+  static TextStyle wtextRegularHeaderXXL = const TextStyle(
     fontSize: 72,
     color: Colors.white,
     fontWeight: FontWeight.w400,
   );
 
   //Medium weight
-  final TextStyle wtextMediumXS = const TextStyle(
+  static TextStyle wtextMediumXS = const TextStyle(
     fontSize: 12,
     color: Colors.white,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle wtextMediumS = const TextStyle(
+  static TextStyle wtextMediumS = const TextStyle(
     fontSize: 14,
     color: Colors.white,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle wtextMediumM = const TextStyle(
+  static TextStyle wtextMediumM = const TextStyle(
     fontSize: 16,
     color: Colors.white,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle wtextMediumL = const TextStyle(
+  static TextStyle wtextMediumL = const TextStyle(
     fontSize: 18,
     color: Colors.white,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle wtextMediumXL = const TextStyle(
+  static TextStyle wtextMediumXL = const TextStyle(
     fontSize: 20,
     color: Colors.white,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle wtextMediumHeaderXS = const TextStyle(
+  static TextStyle wtextMediumHeaderXS = const TextStyle(
     fontSize: 24,
     color: Colors.white,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle wtextMediumHeaderS = const TextStyle(
+  static TextStyle wtextMediumHeaderS = const TextStyle(
     fontSize: 30,
     color: Colors.white,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle wtextMediumHeaderM = const TextStyle(
+  static TextStyle wtextMediumHeaderM = const TextStyle(
     fontSize: 36,
     color: Colors.white,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle wtextMediumHeaderL = const TextStyle(
+  static TextStyle wtextMediumHeaderL = const TextStyle(
     fontSize: 48,
     color: Colors.white,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle wtextMediumHeaderXL = const TextStyle(
+  static TextStyle wtextMediumHeaderXL = const TextStyle(
     fontSize: 60,
     color: Colors.white,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle wtextMediumHeaderXXL = const TextStyle(
+  static TextStyle wtextMediumHeaderXXL = const TextStyle(
     fontSize: 72,
     color: Colors.white,
     fontWeight: FontWeight.w500,
   );
 
   //Semibold weight
-  final TextStyle wtextSemiboldXS = const TextStyle(
+  static TextStyle wtextSemiboldXS = const TextStyle(
     fontSize: 12,
     color: Colors.white,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle wtextSemiboldS = const TextStyle(
+  static TextStyle wtextSemiboldS = const TextStyle(
     fontSize: 14,
     color: Colors.white,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle wtextSemiboldM = const TextStyle(
+  static TextStyle wtextSemiboldM = const TextStyle(
     fontSize: 16,
     color: Colors.white,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle wtextSemiboldL = const TextStyle(
+  static TextStyle wtextSemiboldL = const TextStyle(
     fontSize: 18,
     color: Colors.white,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle wtextSemiboldXL = const TextStyle(
+  static TextStyle wtextSemiboldXL = const TextStyle(
     fontSize: 20,
     color: Colors.white,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle wtextSemiboldHeaderXS = const TextStyle(
+  static TextStyle wtextSemiboldHeaderXS = const TextStyle(
     fontSize: 24,
     color: Colors.white,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle wtextSemiboldHeaderS = const TextStyle(
+  static TextStyle wtextSemiboldHeaderS = const TextStyle(
     fontSize: 30,
     color: Colors.white,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle wtextSemiboldHeaderM = const TextStyle(
+  static TextStyle wtextSemiboldHeaderM = const TextStyle(
     fontSize: 36,
     color: Colors.white,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle wtextSemiboldHeaderL = const TextStyle(
+  static TextStyle wtextSemiboldHeaderL = const TextStyle(
     fontSize: 48,
     color: Colors.white,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle wtextSemiboldHeaderXL = const TextStyle(
+  static TextStyle wtextSemiboldHeaderXL = const TextStyle(
     fontSize: 60,
     color: Colors.white,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle wtextSemiboldHeaderXXL = const TextStyle(
+  static TextStyle wtextSemiboldHeaderXXL = const TextStyle(
     fontSize: 72,
     color: Colors.white,
     fontWeight: FontWeight.w600,
   );
 
   //Bold weight
-  final TextStyle wtextBoldXS = const TextStyle(
+  static TextStyle wtextBoldXS = const TextStyle(
     fontSize: 12,
     color: Colors.white,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle wtextBoldS = const TextStyle(
+  static TextStyle wtextBoldS = const TextStyle(
     fontSize: 14,
     color: Colors.white,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle wtextBoldM = const TextStyle(
+  static TextStyle wtextBoldM = const TextStyle(
     fontSize: 16,
     color: Colors.white,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle wtextBoldL = const TextStyle(
+  static TextStyle wtextBoldL = const TextStyle(
     fontSize: 18,
     color: Colors.white,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle wtextBoldXL = const TextStyle(
+  static TextStyle wtextBoldXL = const TextStyle(
     fontSize: 20,
     color: Colors.white,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle wtextBoldHeaderXS = const TextStyle(
+  static TextStyle wtextBoldHeaderXS = const TextStyle(
     fontSize: 24,
     color: Colors.white,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle wtextBoldHeaderS = const TextStyle(
+  static TextStyle wtextBoldHeaderS = const TextStyle(
     fontSize: 30,
     color: Colors.white,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle wtextBoldHeaderM = const TextStyle(
+  static TextStyle wtextBoldHeaderM = const TextStyle(
     fontSize: 36,
     color: Colors.white,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle wtextBoldHeaderL = const TextStyle(
+  static TextStyle wtextBoldHeaderL = const TextStyle(
     fontSize: 48,
     color: Colors.white,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle wtextBoldHeaderXL = const TextStyle(
+  static TextStyle wtextBoldHeaderXL = const TextStyle(
     fontSize: 60,
     color: Colors.white,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle wtextBoldHeaderXXL = const TextStyle(
+  static TextStyle wtextBoldHeaderXXL = const TextStyle(
     fontSize: 72,
     color: Colors.white,
     fontWeight: FontWeight.w700,
@@ -420,228 +421,228 @@ class TextStyles {
   // Black Font
 
   //Regular weight
-  final TextStyle btextRegularXS = const TextStyle(
+  static TextStyle btextRegularXS = const TextStyle(
     fontSize: 12,
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle btextRegularS = const TextStyle(
+  static TextStyle btextRegularS = const TextStyle(
     fontSize: 14,
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle btextRegularM = const TextStyle(
+  static TextStyle btextRegularM = const TextStyle(
     fontSize: 16,
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle btextRegularL = const TextStyle(
+  static TextStyle btextRegularL = const TextStyle(
     fontSize: 18,
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle btextRegularXL = const TextStyle(
+  static TextStyle btextRegularXL = const TextStyle(
     fontSize: 20,
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle btextRegularHeaderXS = const TextStyle(
+  static TextStyle btextRegularHeaderXS = const TextStyle(
     fontSize: 24,
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle btextRegularHeaderS = const TextStyle(
+  static TextStyle btextRegularHeaderS = const TextStyle(
     fontSize: 30,
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle btextRegularHeaderM = const TextStyle(
+  static TextStyle btextRegularHeaderM = const TextStyle(
     fontSize: 36,
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle btextRegularHeaderL = const TextStyle(
+  static TextStyle btextRegularHeaderL = const TextStyle(
     fontSize: 48,
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle btextRegularHeaderXL = const TextStyle(
+  static TextStyle btextRegularHeaderXL = const TextStyle(
     fontSize: 60,
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
-  final TextStyle btextRegularHeaderXXL = const TextStyle(
+  static TextStyle btextRegularHeaderXXL = const TextStyle(
     fontSize: 72,
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
 
   //Medium weight
-  final TextStyle btextMediumXS = const TextStyle(
+  static TextStyle btextMediumXS = const TextStyle(
     fontSize: 12,
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle btextMediumS = const TextStyle(
+  static TextStyle btextMediumS = const TextStyle(
     fontSize: 14,
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle btextMediumM = const TextStyle(
+  static TextStyle btextMediumM = const TextStyle(
     fontSize: 16,
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle btextMediumL = const TextStyle(
+  static TextStyle btextMediumL = const TextStyle(
     fontSize: 18,
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle btextMediumXL = const TextStyle(
+  static TextStyle btextMediumXL = const TextStyle(
     fontSize: 20,
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle btextMediumHeaderXS = const TextStyle(
+  static TextStyle btextMediumHeaderXS = const TextStyle(
     fontSize: 24,
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle btextMediumHeaderS = const TextStyle(
+  static TextStyle btextMediumHeaderS = const TextStyle(
     fontSize: 30,
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle btextMediumHeaderM = const TextStyle(
+  static TextStyle btextMediumHeaderM = const TextStyle(
     fontSize: 36,
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle btextMediumHeaderL = const TextStyle(
+  static TextStyle btextMediumHeaderL = const TextStyle(
     fontSize: 48,
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle btextMediumHeaderXL = const TextStyle(
+  static TextStyle btextMediumHeaderXL = const TextStyle(
     fontSize: 60,
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
-  final TextStyle btextMediumHeaderXXL = const TextStyle(
+  static TextStyle btextMediumHeaderXXL = const TextStyle(
     fontSize: 72,
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
 
   //Semibold weight
-  final TextStyle btextSemiboldXS = const TextStyle(
+  static TextStyle btextSemiboldXS = const TextStyle(
     fontSize: 12,
     color: Colors.black,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle btextSemiboldS = const TextStyle(
+  static TextStyle btextSemiboldS = const TextStyle(
     fontSize: 14,
     color: Colors.black,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle btextSemiboldM = const TextStyle(
+  static TextStyle btextSemiboldM = const TextStyle(
     fontSize: 16,
     color: Colors.black,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle btextSemiboldL = const TextStyle(
+  static TextStyle btextSemiboldL = const TextStyle(
     fontSize: 18,
     color: Colors.black,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle btextSemiboldXL = const TextStyle(
+  static TextStyle btextSemiboldXL = const TextStyle(
     fontSize: 20,
     color: Colors.black,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle btextSemiboldHeaderXS = const TextStyle(
+  static TextStyle btextSemiboldHeaderXS = const TextStyle(
     fontSize: 24,
     color: Colors.black,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle btextSemiboldHeaderS = const TextStyle(
+  static TextStyle btextSemiboldHeaderS = const TextStyle(
     fontSize: 30,
     color: Colors.black,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle btextSemiboldHeaderM = const TextStyle(
+  static TextStyle btextSemiboldHeaderM = const TextStyle(
     fontSize: 36,
     color: Colors.black,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle btextSemiboldHeaderL = const TextStyle(
+  static TextStyle btextSemiboldHeaderL = const TextStyle(
     fontSize: 48,
     color: Colors.black,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle btextSemiboldHeaderXL = const TextStyle(
+  static TextStyle btextSemiboldHeaderXL = const TextStyle(
     fontSize: 60,
     color: Colors.black,
     fontWeight: FontWeight.w600,
   );
-  final TextStyle btextSemiboldHeaderXXL = const TextStyle(
+  static TextStyle btextSemiboldHeaderXXL = const TextStyle(
     fontSize: 72,
     color: Colors.black,
     fontWeight: FontWeight.w600,
   );
 
   //Bold weight
-  final TextStyle btextBoldXS = const TextStyle(
+  static TextStyle btextBoldXS = const TextStyle(
     fontSize: 12,
     color: Colors.black,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle btextBoldS = const TextStyle(
+  static TextStyle btextBoldS = const TextStyle(
     fontSize: 14,
     color: Colors.black,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle btextBoldM = const TextStyle(
+  static TextStyle btextBoldM = const TextStyle(
     fontSize: 16,
     color: Colors.black,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle btextBoldL = const TextStyle(
+  static TextStyle btextBoldL = const TextStyle(
     fontSize: 18,
     color: Colors.black,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle btextBoldXL = const TextStyle(
+  static TextStyle btextBoldXL = const TextStyle(
     fontSize: 20,
     color: Colors.black,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle btextBoldHeaderXS = const TextStyle(
+  static TextStyle btextBoldHeaderXS = const TextStyle(
     fontSize: 24,
     color: Colors.black,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle btextBoldHeaderS = const TextStyle(
+  static TextStyle btextBoldHeaderS = const TextStyle(
     fontSize: 30,
     color: Colors.black,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle btextBoldHeaderM = const TextStyle(
+  static TextStyle btextBoldHeaderM = const TextStyle(
     fontSize: 36,
     color: Colors.black,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle btextBoldHeaderL = const TextStyle(
+  static TextStyle btextBoldHeaderL = const TextStyle(
     fontSize: 48,
     color: Colors.black,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle btextBoldHeaderXL = const TextStyle(
+  static TextStyle btextBoldHeaderXL = const TextStyle(
     fontSize: 60,
     color: Colors.black,
     fontWeight: FontWeight.w700,
   );
-  final TextStyle btextBoldHeaderXXL = const TextStyle(
+  static TextStyle btextBoldHeaderXXL = const TextStyle(
     fontSize: 72,
     color: Colors.black,
     fontWeight: FontWeight.w700,
