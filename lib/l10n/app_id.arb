@@ -1,0 +1,20 @@
+{
+    "helloWorld": "Halo Dunia!",
+    "@helloWorld": {
+        "description": "Salam konvensional untuk programmer pemula"
+    },
+    "settings": "Pengaturan",
+    "changeLanguage": "Ubah Bahasa",
+    "changeTheme": "Ubah Tema",
+
+
+    "requiredFill": " * Wajib diisi",
+    "invalidEmail": " * Email tidak valid",
+    "invalidPhoneNumber": " * Nomor telepon tidak valid",
+    "invalidBirthDay": " * Tanggal lahir tidak valid",
+    "invalidBirthMonth": " * Bulan lahir tidak valid",
+    "invalidBirthYear": " * Tahun lahir tidak valid",
+    "atLeast8Chars": " * Minimal 8 karakter",
+    "atLeast3Chars": " * Minimal 3 karakter"  
+}
+

@@ -1,0 +1,19 @@
+{
+    "helloWorld": "Hello World!",
+    "@helloWorld": {
+      "description": "The conventional newborn programmer greeting"
+    },
+    "settings": "Settings",
+    "changeLanguage": "Change Language",
+    "changeTheme": "Change Theme",
+
+    
+    "requiredFill": " * Required",
+    "invalidEmail": " * Invalid email",
+    "invalidPhoneNumber": " * Invalid phone number",
+    "invalidBirthDay": " * Invalid",
+    "invalidBirthMonth": " * Invalid",
+    "invalidBirthYear": " * Invalid",
+    "atLeast8Chars": " * At least 8 characters",
+    "atLeast3Chars": " * At least 3 characters"  
+}
